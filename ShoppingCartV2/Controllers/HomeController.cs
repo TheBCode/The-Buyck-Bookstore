@@ -64,7 +64,7 @@ namespace ShoppingCartV2.Controllers
             Session["PageHeading"] = siteHeading;
             ViewBag.Title = "About " + siteHeading;
             ViewBag.Message = "<img src=\"/Images/aboutus.jpg\">";
-            ViewBag.Message += "This is a bookstore created by the magnificent Software Developer Byron Buyck!";
+            ViewBag.Message += "This is a bookstore created by the magnificent Software/Web Developer Byron Buyck!";
 
             return View();
         }
